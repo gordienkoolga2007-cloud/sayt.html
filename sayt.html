@@ -22,7 +22,6 @@
             text-align: center;
         }
 
-
         h1 {
             margin-bottom: 5px;
         }
@@ -88,6 +87,28 @@
     </div>
 
 </div>
+
+<!-- 🔥 Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics-compat.js"></script>
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyBldxGXI-fVCL74BN-IcNz-FjRKpEf__Ls",
+  authDomain: "olia-site.firebaseapp.com",
+  projectId: "olia-site",
+  storageBucket: "olia-site.firebasestorage.app",
+  messagingSenderId: "929616368595",
+  appId: "1:929616368595:web:7885809d8e5fbfb6a41526",
+  measurementId: "G-HD5NKRQ33J"
+};
+
+// Ініціалізація Firebase
+firebase.initializeApp(firebaseConfig);
+
+// Аналітика
+firebase.analytics();
+</script>
 
 </body>
 </html>
